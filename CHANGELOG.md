@@ -6,9 +6,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 ### Added
-* Support for Python 3.9, 3.10, 3.11, and 3.12
-* Support for Django 3.2, 4.2, and 5.0
-* Support for Django REST Framework 3.12, 3.13, 3.14, and 3.15
+* Support for Python 3.10, 3.11, 3.12, 3.13, and 3.14
+* Support for Django 4.2, 5.2, and 6.0
+* Support for Django REST Framework 3.15 and 3.16
 
 ### Changed
 * Switches from Travis CI to Github Actions
@@ -18,9 +18,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * Drops `mock` dependency, in favour of `unittest.mock`
 
 ### Removed
-* Support for Python <= 3.7 (EOL 2023)
-* Support for Django <= 3.1 (EOL 2021)
-* Support for Django REST Framework <= 3.11
+* Support for Python <= 3.9 (EOL 2025)
+* Support for Django <= 4.1 (EOL 2023)
+* Support for Django REST Framework <= 3.14
 
 ## [2.0.1] - 2020-09-20
 ### Fixed
